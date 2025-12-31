@@ -1,12 +1,11 @@
 import requests
 from datetime import datetime
-from waste_collection_schedule import Collection  # type: ignore[attr-defined]
+from waste_collection_schedule import Collection
 
 TITLE = "OZO Ostrava"
-DESCRIPTION = "Svoz odpadu pro Ostravu a okolí spravovaný společností OZO Ostrava s.r.o."
+DESCRIPTION = "Waste collection schedules for Ostrava and nearby municipalities"
 URL = "https://ozoostrava.cz"
 
-# Toto je moderní způsob, jak definovat zemi a region pro dokumentaci:
 EXTRA_INFO = [
     {
         "title": "OZO Ostrava",
@@ -26,8 +25,8 @@ TEST_CASES = {
     "Hladké Životice": {
         "obec": "Hladké Životice",
         "obvod": "Hladké Životice",
-        "ulice": "Hladké Životice",
-        "cislo": "1"
+        "ulice": "Hlavní",
+        "cislo": "12"
     }
 }
 
