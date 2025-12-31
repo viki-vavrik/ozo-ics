@@ -3,7 +3,7 @@
 ### Požadavky
 * Mít nainstalovanou integraci [Waste Collection Schedule](https://github.com/mampfes/hacs_waste_collection_schedule) (dostupná v HACS).
 ## Návod na přidání do Home Assistanta:
-1. Z repozitáře si stáhněte soubor [`ozoostrava_cz.py`](https://github.com/viki-vavrik/ozo-ics/blob/main/ozoostrava_cz.py).
+1. Z repozitáře si stáhněte soubor [`ozoostrava_cz.py`](https://github.com/viki-vavrik/ha-ozo-ostrava/blob/main/ozoostrava_cz.py).
 2. Vložte ho do složky `custom_components/waste_collection_schedule/waste_collection_schedule/source/`.
 3. Teď máte dvě možnosti:
 ### Možnost A: Úprava souboru sources.json:
@@ -51,7 +51,7 @@ sensor:
 Custom [Waste Collection Schedule](https://github.com/mampfes/hacs_waste_collection_schedule) source for Ostrava and nearby municipalities.
 ### Installation
 1. Install [Waste Collection Schedule](https://github.com/mampfes/hacs_waste_collection_schedule) via HACS.
-2. Upload [`ozoostrava_cz.py`](https://github.com/viki-vavrik/ozo-ics/blob/main/ozoostrava_cz.py) to: `custom_components/waste_collection_schedule/waste_collection_schedule/source/`
+2. Upload [`ozoostrava_cz.py`](https://github.com/viki-vavrik/ha-ozo-ostrava/blob/main/ozoostrava_cz.py) to: `custom_components/waste_collection_schedule/waste_collection_schedule/source/`
 3. Restart Home Assistant and configure via UI (by editing sources.json) or via configuration.yaml as shown above.
 
 **Data source:** [ozoostrava.cz/svoz](https://ozoostrava.cz/svoz)
